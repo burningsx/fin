@@ -1,0 +1,255 @@
+/*
+* @Author: qwe
+* @Date:   2018-01-30 11:10:57
+* @Last Modified by:   DELL
+* @Last Modified time: 2018-02-01 14:33:59
+*/
+*{
+	/* 去掉浏览器默认样式 */
+	margin: 0;
+	padding: 0; 
+	/* 去掉a标签下划线 */
+	text-decoration: none;
+	/* 去掉列表标签修饰 */
+	list-style: none;
+}
+/* 手机头部 */
+.kefuheader{
+	width: 7.5rem;
+	height: 1.52rem;
+	background: #2c69e4;
+	overflow: hidden;
+}
+.fanhuijian{
+    display: block;
+    width: 0.69rem;	
+	float: left;
+	margin-left: 0.17rem;
+	margin-top: 0.23rem;
+}
+.biaoti{
+	font-size: 0.29rem;	
+	line-height: 1.52rem;
+	margin-left: 3.2rem;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+/* 手机内容 */
+.neirong{
+	width: 7.5rem;
+	height: 10.42rem;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.touxiang{
+	display: block;
+	width: 0.8rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.zhong{
+	width: 4.35rem;
+	height: 0.82rem;
+	/* background: red; */
+	margin-left: 0.24rem;
+	position: relative;
+}
+.liaotian1{
+	display: block;
+	width: 4.35rem;
+	height: 0.82rem;
+	margin-top: 0.24rem;
+	position:relative;	
+}
+.liaotianwenzi1{
+	font-size: 0.20rem;
+	color: #ffffff;
+	position: absolute;
+	top: 0.28rem;
+	left: 0.75rem;
+}
+.shijiandian{
+	display: block;
+	width: 0.1rem;
+	height: 0.1rem;
+	margin-left: 0.6rem;
+	margin-top: 0.15rem;
+	float: left;
+
+}
+.shijian_text{
+	float: left;
+	margin-left: 0.09rem;
+	margin-top: 0.07rem;
+	font-size: 0.14rem;
+	color: #d4d4d4;
+}
+.liaotian2{
+	display: block;
+	width: 2.24rem;
+	height: 0.82rem;
+	margin-top: 0.7rem;
+	margin-left: 0.28rem;	
+}
+.zhong_you{
+	width: 5.19rem;
+	height: 0.83rem;
+	/* background: red; */
+	margin-left: 2.8rem; 
+	margin-top: 0.7rem;
+	position: relative;
+}
+.liaotianwenzi3{
+	font-size: 0.20rem;
+	color: #2c69e4; 
+	position: absolute;
+	top: 0.28rem;
+	left: 0.6rem;
+}
+.shijian_text3{
+	float: left;
+	margin-left: 0.09rem;
+	margin-top: 0.07rem;
+	font-size: 0.14rem;
+	color: #d4d4d4;
+}
+.lishixiaoxi1{
+	width: 2.43rem;
+	height: 0.08rem;
+	/* background: red; */
+	float: left;
+	margin-left: -4rem;
+	margin-top: 1rem;
+	border-top: 0.01rem dashed #b0b0b0;
+}
+.lishixiaoxi_text{
+	font-size: 0.18rem;
+	color: #b0b0b0;
+	text-align: center;
+	float: left;
+	margin-left: -1.5rem;
+	margin-top: 0.88rem;
+}
+.lishixiaoxi2{
+	width: 2.7rem;
+	height: 0.08rem;
+	/* background: red; */
+	float: left;
+	margin-left: -0.1rem;
+	margin-top: 1rem;
+	border-top: 0.01rem dashed #b0b0b0;
+}
+.touxiang2{
+	display: block;
+	width: 0.8rem;
+	margin-left: -2.58rem;
+	margin-top: 1.64rem;
+}
+.zhong_xia{
+	width: 4.35rem;
+	height: 0.82rem;
+	/* background: red; */
+	margin-left: -2.5rem;
+	position: relative;
+}
+.liaotian4{
+	display: block;
+	width: 2.87rem;
+	height: 0.82rem;
+	margin-top: 0.24rem;
+	position:relative;	
+}
+.liaotianwenzi4{
+	font-size: 0.20rem;
+	color: #ffffff;
+	position: absolute;
+	top: 0.28rem;
+	left: 0.75rem;
+}
+.shijiandian4{
+	display: block;
+	width: 0.1rem;
+	height: 0.1rem;
+	margin-left: -2.2rem;
+	margin-top: 0.15rem;
+	float: left;
+
+}
+.shijian_text4{
+	float: left;
+	margin-left: -2rem;
+	margin-top: 0.07rem;
+	font-size: 0.14rem;
+	color: #d4d4d4;
+}
+.gantanhao{
+	width: 0.31rem;
+	float: left;
+	margin-left: 1.03rem;
+	margin-top: 0.5rem;
+}
+.yuyin1{
+	width: 2.54rem;
+	height: 0.83rem;
+	margin-top: -0.29rem;
+	margin-left: 0.45rem;
+}
+
+.shijian_text5{
+	float: left;
+	margin-left: 3.09rem;
+	margin-top: -0.2rem;
+	font-size: 0.14rem;
+	color: #d4d4d4;
+}
+/* 底部 */
+.kefudibu{
+	width: 7.5rem;
+	height: 1rem;
+	background: #2b8aff;
+	overflow: hidden;
+}
+.jiahao{
+	display: block;
+	height: 0.54rem;
+    margin-left: 0.24rem; 
+    margin-top: 0.24rem;
+    float: left;
+}
+.shurukuang{
+	float: left;
+	width: 5.04rem;
+	height: 0.66rem;
+	background: #1997ef;
+	border: 0.04rem solid #2d96ff;
+	margin-left: 0.22rem; 
+    margin-top: 0.16rem;
+    border-top-left-radius: 30pt;
+    border-bottom-right-radius: 30pt;
+    border-bottom-left-radius: 30pt;
+    border-top-right-radius: 30pt;
+	
+}
+.shuru_yuan{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: #fff;
+	border-radius: 50%; 
+	border: 0.03rem solid #30a2f1;
+	margin-left: 0.19rem; 
+    margin-top: 0.20rem;	
+    float: left; 
+}
+.shuru_text{
+	float: left;
+	font-size: 0.22rem;
+	margin-left: 0.12rem; 
+    margin-top: 0.18rem;
+    color: #92c5f5;	
+}
+.yuyin2{
+	height: 0.55rem;
+	float: left;
+	margin-left: 0.45rem; 
+    margin-top: 0.27rem;
+}

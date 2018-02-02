@@ -1,0 +1,289 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-30 11:07:25
+* @Last Modified by:   DELL
+* @Last Modified time: 2018-02-01 18:09:11
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.banner{
+	width:100%;
+	height: auto; 
+	background:#f4f4f4;
+}
+.img{
+	width: 7.5rem;
+	height: 4.01rem;
+	background: #f4f4f4;
+	overflow: hidden;
+}
+.qiandaolan{
+	width:7.02rem;
+	height: 1.45rem;
+	background: #fff;
+	margin-top: 0.26rem;
+	/* margin: 0 auto; */
+	border-radius: 0.07rem;
+	margin-left: 0.2rem;
+}
+.qiandaolan1{
+	width: 3.51rem;
+	height: 1.45rem;
+	background: #fff;
+	border-radius: 0.07rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	float: left;
+    
+}
+.img_1{
+	width: 1.04rem;
+	height: 1.04rem;
+	margin-top: 0.21rem;
+	margin-left: 0.22rem;
+
+}
+.qian{
+	width: 2.2rem;
+    height: 0.58rem;
+    background: #fff;
+    float: right;
+    margin-top: 0.39rem;
+    margin-right: 0.01rem;
+}
+.qian_1{
+	width:1.08rem;
+	height: 0.25rem;
+	font-size: 0.26rem;
+	font-family: 苹方;
+	color: blue;
+	font-weight: bold;
+}
+.qian_2{
+	width:2.2rem;
+	height: 0.17rem;
+	font-size: 0.18rem;
+	font-family: 苹方;
+    margin-top:0.08rem;
+    color: #c0d7fd;
+}
+.haoyoulan1{
+	width: 3.51rem;
+	height: 1.45rem;
+	background: #fff;
+	border-radius: 0.07rem;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	float: right;
+   
+}
+ .biankuang{
+	width: 3.47rem;
+	height: 1.23rem;
+	border-left: 0.01rem solid #f4f4f4;
+	margin-top: 0.1rem;
+} 
+.img_2{
+	width: 1.04rem;
+	height: 1.04rem;
+	margin-top: 0.1rem;
+	margin-left: 0.3rem;
+    
+}
+.hao{
+	width: 1.5rem;
+    height: 0.58rem;
+    background: #fff;
+    float: right;
+    margin-top: 0.3rem;
+    margin-right: 0.60rem;
+}
+.hao_1{
+	width:1.08rem;
+	height: 0.25rem;
+	font-size: 0.26rem;
+	font-family: 苹方;
+	color: blue;
+	font-weight: bold;
+}
+.hao_2{
+	width:2.2rem;
+	height: 0.17rem;
+	font-size: 0.18rem;
+	font-family: 苹方;
+    margin-top:0.08rem;
+    color: #c0d7fd;
+}
+.chanpintuijian{
+	width: 7.02rem;
+	height: 1rem;
+	margin-top: 0.26rem;
+	margin-left: 0.25rem;
+	background: #fff;
+	border-radius: 0.07rem;
+	overflow: hidden;
+}
+.lantiao{
+	width: 0.06rem;
+	height: 0.43rem;
+	background: blue;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+	border-radius: 0.04rem;
+	float: left;
+}
+.zi{
+	width: 1.36rem;
+	height: 0.49rem;
+	background: #fff;
+    margin-top: 0.2rem;
+    margin-left: 0.12rem;
+    float: left;
+}
+.tui{
+	width: 1.30rem;
+	height: 0.297rem;
+	font-family: 苹方;
+	font-size: 0.24rem;
+	color: #585858;
+}
+.yingwen{
+	width: 1.30rem;
+	height: 0.13rem;
+	font-size: 0.12rem;
+	color: #dddddd;
+	font-family: 苹方;
+}
+.dinqi{
+	width: 1.8rem;
+	height: 1.25rem;
+	background: #fff;
+	margin-top: 0.87rem;
+	margin-left: 0.58rem;
+
+}
+.dian{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 0.15rem;
+	background: #2cdf2b;
+	float: left;
+	margin-top: 0.10rem;
+	border: 0.03rem solid #b7f1b6;
+}
+.ding{
+	width: 0.6rem;
+	height: 0.28rem;
+	color: #a3a3a3;
+	font-size: 0.26rem;
+	margin-left: 0.03rem;	
+	float: left;
+	font-family: 苹方;
+}
+.tian{
+	width: 0.27rem;
+	height: 0.29rem;
+	color: #dcdcdc;
+	font-size: 0.27rem;
+	float: left;
+	font-family: 苹方;
+}
+.lvkuang{
+	width: 0.42rem;
+	height: 0.28rem;
+	background: #5fdb2e;
+	border-radius: 0.09rem;
+	float: left;
+	margin-left: 0.15rem;
+    margin-top: 0.05rem;
+}
+.san{
+	width: 0.23rem;
+	height: 0.15rem;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+    margin-left: 0.08rem;
+    margin-top: 0.04rem;
+}
+.xiaoshudian{
+	width: 0.82rem;
+	height: 0.46rem;
+    color: #0000FF;
+    font-size: 0.40rem;
+    margin-left: 0.15rem;
+}
+/* .min{
+	background: url('../img/images/lilv.png') no-repeat;
+	background-size: cover;
+} */
+.bigbox{
+	width: 7.5rem;
+	height: 10.70rem;
+	background: url('../img/imgages/aaaa.png') no-repeat;
+	background-size: cover;
+
+}
+.aaa{
+	width: 7.5rem;
+	height: 10.70rem;
+
+}
+.tab_big_box{
+	width: 7.5rem;
+	height: 1rem;
+	background: url('../img/tab/total_01.png')no-repeat center;
+	background-size: cover;
+	position: fixed;
+	bottom: 0;
+	left:0;
+
+}
+.tab_small_box{
+	width: 25%;
+	height: 1rem;
+	background: url('../img/tab/home_02.png') no-repeat center;
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.tab_small_box1{
+	width: 25%;
+	height: 1rem;
+	background: url('../img/tab/fin_03.png') no-repeat center;
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.tab_small_box2{
+	width: 25%;
+	height: 1rem;
+	background: url('../img/tab/more_03.png') no-repeat center;
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.tab_small_box3{
+	width: 25%;
+	height: 1rem;
+	background: url('../img/tab/my_03.png') no-repeat center;
+	background-size: cover;
+	display: block;
+	float: left;
+}
+.fin_Content_list-yes{
+	width: 7.03rem;
+	height: 1.39rem;
+	position: absolute;
+	top: 0.24rem;
+	left: 0.24rem;
+}
+.yuanhe{
+	width: 7.5rem;
+	height: 1rem;
+	background: #f5f5f5;
+}

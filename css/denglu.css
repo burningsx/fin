@@ -1,0 +1,136 @@
+/*
+* @Author: qwe
+* @Date:   2018-02-01 10:46:37
+* @Last Modified by:   DELL
+* @Last Modified time: 2018-02-01 15:35:42
+*/
+*{
+	margin: 0;
+	padding: 0; 
+	text-decoration: none;
+	list-style: none;
+}
+.beijing{
+	width: 100%;
+	height: 13.34rem;
+	/* background: red; */
+	position: relative;
+}
+.denglubeijing{
+	display: block;
+	height: 13.34rem;	
+}
+.denglufanhui{
+	display: block;
+	height: 0.68rem;
+	position: absolute;
+	top: 0.52rem;
+	left: 0.24rem;
+}
+.denglu{
+	width: 7.02rem;
+	height: 4.57rem;
+	background: #fff;
+	position: absolute;
+	top: 6.22rem;
+	left: 0.24rem;
+	border-radius: 15pt;
+	box-shadow: 0 0 0.3rem 0.05rem rgba(0, 0, 0, 0.3);	
+}
+.zhanghao{
+	width: 100%;
+	height: 1.40rem;
+	/* border-bottom: 0.01rem solid #000; */
+	/* background: orange; */
+	overflow: hidden;
+
+}
+.zhanghao_top{
+	width: 1.69rem;
+	height: 0.48rem;
+	/* background: red; */
+	margin-left: 0.22rem;
+	margin-top: 0.37rem;
+}
+.dengluyonghu{
+	display: block;
+	height: 0.48rem;
+	float: left;
+}
+.name{
+	width: 1.03rem;
+	height: 0.2rem;
+	/* background: orange; */
+	float: left;
+	margin-left: 0.13rem;
+    margin-top: 0.08rem;
+    font-size: 0.15rem;
+    font-weight: bold;
+    color: #2089f8;
+}
+.zhanghao .ysj{
+	color: #1bc8ae;
+}
+.zhanghao_left{
+	width: 6.34rem;
+	height: 0.54rem;
+	/* background: red; */
+	margin-left: 0.22rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: orange; 
+	border-radius: 7pt;
+	border:0.03rem solid #d2e8fd;
+	margin-top: 0.25rem;
+	float: left;
+}
+[type="shuru1_text"]{
+	width: 4rem;
+    float: left;
+    margin-left: 0.47rem;
+    margin-top: 0.13rem;
+    border:0.01rem solid #fff;
+    font-size: 0.22rem;
+    color: #cfcece;
+
+}
+
+.shuru1_text :focus{
+	outline: none;
+}
+.mima{
+	width: 7.02rem;
+	height: 1.46rem;
+	border-bottom: 0.01rem solid #000;
+	background: orange;
+}
+[type="password"]{
+	width: 3rem;
+    float: left;
+    margin-left: 0.47rem;
+    margin-top: 0.13rem;
+    border:0.01rem solid #fff;
+    font-size: 0.22rem;
+
+}
+.password :focus{
+	outline: none;
+}
+.denglu_yes{
+	display: block;
+	width: 2.88rem;
+	height: 0.66rem;
+	background: #3874eb;
+	margin-top: 0.57rem;
+	margin-left: 2.07rem;
+	border-radius: 0.30rem;
+    color: #fff;
+    font-size: 0.30rem;
+    text-align: center;
+    line-height: 0.66rem;
+    font-weight: bold;
+}

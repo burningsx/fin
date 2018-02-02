@@ -1,0 +1,302 @@
+/*
+* @Author: a
+* @Date:   2018-02-01 09:36:30
+* @Last Modified by:   a
+* @Last Modified time: 2018-02-01 16:02:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+.xiangqinghead{
+	width: 100%;
+	height: 2.14rem;
+	background: #2c69e4;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	position: relative;
+}
+.xiangnqingtubiao{
+	width: 7.01rem;
+	height: 0.68rem;
+	position: absolute;
+	top: 0.34rem;
+	left: 0.24rem;
+}
+.xq{
+	width: 0.68rem;
+	height: 0.68rem;
+	border-radius: 50%;
+	float: left;
+}
+.fx{
+	width: 0.68rem;
+	height: 0.68rem;
+	border-radius: 50%;
+	float: right;
+}
+.xqbiaoti{
+	font-size: 0.269rem;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0.52rem;
+}
+.zuozhejieshao{
+	width: 7.03rem;
+	height: 1.41rem;
+	background: #fff;
+	position: absolute;
+	top: 1.54rem;
+	left: 0.24rem;
+	border-radius: 12pt;
+}
+.touxiang{
+	width: 0.58rem;
+	height: 0.58rem;
+	background: red;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.23rem;
+	margin-left: 0.24rem;
+}
+.tx{
+	width: 0.58rem;
+	height: 0.58rem;
+	float: left;
+}
+.zuozhemingzi{
+	font-size: 0.26rem;
+	color: #6a96e7;
+	font-weight: bold;
+	float: left;
+	margin-top: 0.27rem;
+	margin-left: 0.28rem;
+}
+.zuozhezhiwei{
+	font-size: 0.15rem;
+	color: #b8b8b8;
+	font-weight: bold;
+	float: left;
+	margin-top: 0.03rem;
+	margin-left: 0.28rem;
+}
+.dianjiliang{
+	width: 5.72rem;
+	height: 0.29rem;
+	float: left;
+	margin-left: 1.04rem;
+	margin-top: 0.08rem;
+	border-top: 0.01rem dashed #b8b8b8;
+}
+.xqshijiandian{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #2c69e4;
+	border-radius: 50%;
+	border: 0.03rem solid #bcd3ff;
+	float: left;
+	margin-top: 0.16rem; 
+}
+.xqshijian{
+	font-size: 0.10rem;
+	color:#b8b8b8;
+	float: left; 
+	margin-left: 0.15rem;
+}
+.xqshijiandian1{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #2c69e4;
+	border-radius: 50%;
+	border: 0.03rem solid #bcd3ff;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.36rem; 
+}
+.xqshijian1{
+	font-size: 0.10rem;
+	color:#b8b8b8;
+	float: left; 
+	margin-left: 0.08rem;
+}
+.xqguanzhu{
+	display: block;
+	width: 1.09rem;
+	height: 0.47rem;
+	background: #2bcedf;
+	border-radius: 21pt;
+	position: absolute;
+	top: 0.29rem;
+	right: 0.23rem;
+}
+.yuandian{
+	width: 0.29rem;
+	height: 0.29rem;
+	background: #39a6df;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.09rem;
+	margin-left: 0.06rem;
+}
+.xingxing{
+	width: 0.14rem;
+	height: 0.14rem;
+	float: left;
+	margin-left: 0.07rem;
+	margin-top: 0.07rem;
+}
+.guanzhuzi{
+	font-size: 0.19rem;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	line-height: 0.47rem;
+	margin-right: 0.20rem;
+}
+/* 头部结束 */
+/* 窗口开始 */
+.xqchuagnkou{
+	width: 100%;
+	height: 24.01rem;
+	background: #ededed;
+	margin-bottom: 1rem;
+}
+.shoutu{
+	width: 100%;
+	height: 3.15rem;
+	margin-top: 1.06rem;
+}
+.wenzhang{
+	font-size: 0.2rem;
+	color: #6f6f6f;
+	margin-left: 0.30rem;
+	margin-right: 0.30rem;
+	margin-bottom: 0.5rem;
+}
+.shutiao{
+	width: 0.06rem;
+	height: 0.43rem;
+	background: #2b7afd;
+	border-radius: 30pt;
+	margin-top: 1.70rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+.wenzihezi{
+	width: 2.85rem;
+	height: 0.60rem;
+	margin-left: 0.41rem;
+	margin-top: 2.10rem;
+}
+.chuangkouwenzi{
+	font-size: 0.26rem;
+	color: #545454;
+	font-weight: bold;
+}
+.xiaoyingwen{
+	font-size: 0.12rem;
+	color: #d6d6d6;
+}
+.pinglunhezi{
+	width: 7.02rem;
+	height: 1.29rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	border-radius: 12pt;
+	position: relative;
+}
+.pingluntouxiang{
+	width: 0.81rem;
+	height: 0.81rem;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.pinglunmingzi{
+	font-size: 0.14rem;
+	color: #b8b8b8;
+	font-weight: bold;
+	float: left;
+	margin-top: 0.20rem;
+	margin-left: 0.24rem;
+}
+.pinglunneirong{
+	font-size: 0.19rem;
+	color: #737373;
+	font-weight: bold;
+	float: left;
+	top: 0.58rem;
+	left: 1.30rem;
+	position: absolute;
+}
+.pinglunliang{
+	width: 5.54rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.38rem;	
+}
+.pinglundian{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #2c69e4;
+	border-radius: 50%;
+	border: 0.03rem solid #bcd3ff;
+	float: left;
+	margin-top: 0.1rem; 
+}
+.pinglunshijian{
+	font-size: 0.10rem;
+	color:#b8b8b8;
+	float: left; 
+	margin-left: 0.07rem;
+}
+.pxshuliang{
+	font-size: 0.14rem;
+	color:#98e1ab;
+	float: right; 
+	margin-right: 0.20rem;
+}
+.huifu{
+	font-size: 0.19rem;
+	color:#8d8d8d;
+	float: right; 
+	margin-right: 0.06rem;
+}
+.gengduo{
+	font-size: 0.20rem;
+	color: #92aaeb;
+	margin-top: 0.20rem;
+	margin-left: 0.24rem;
+}
+/* 窗口结束 */
+/* 底部开始 */
+.dibulan{
+	width: 100%;
+	height: 1rem;
+	background: #2b8aff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.xinxi{
+	width: 0.65rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.17rem;
+}
+.xiangxia{
+	width: 0.65rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 4.82rem;
+	margin-top: 0.17rem;
+}
+/* 底部结束 */
